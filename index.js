@@ -24,7 +24,7 @@ mongoose
   // .connect("mongodb+srv://nidhi:CgnDbz23ZgxLBCTc@vdc.w3uew8n.mongodb.net/")
   // .connect('mongodb+srv://ankur:hQ4j8rKyKEKFtCH9@vdc.w3uew8n.mongodb.net/?retryWrites=true&w=majority')
   .connect("mongodb+srv://mahendra:123$AAaa@mahendra.tpz9ktz.mongodb.net/webrtc?retryWrites=true&w=majority")
-  .then(() => console.log("Database Connected Successfully"))
+  .then(() => console.log("Database Connected Successfully data"))
   .catch((error) => console.log(error));
 
 // app.use(express.static(path.join(__dirname, "../client/build")));
